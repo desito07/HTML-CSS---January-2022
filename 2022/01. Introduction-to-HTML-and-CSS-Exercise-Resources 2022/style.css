@@ -1,0 +1,42 @@
+h1 {
+    color: lightcoral;
+}
+
+h2 { 
+    color: lightgreen;
+}
+
+/* #firstdiv .pItem { 
+    background-color: lightskyblue;
+} */
+
+.pItem { 
+    background-color: pink;
+}
+
+#firstdiv .pItem { 
+    background-color: lightskyblue;
+}
+
+/* Selector Types - сила на селекторите, колкото по-детайлен е даден селектор толкова по-силен е
+1. html -> p. H1. Button
+2. class -> .pItem
+3. id -> #firstDiv
+4. important -> 
+*/
+
+p {
+    background-color: blue;
+    width: 150px;
+}
+
+span { 
+    background-color: red;
+    width: 150px;
+}
+
+.custom {
+    display: inline-block;
+    width: 200px;
+    background-color: orange;
+}
