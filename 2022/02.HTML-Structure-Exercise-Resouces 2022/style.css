@@ -1,0 +1,36 @@
+header {
+    background-color: rgb(35,68, 101);
+}
+
+aside {
+    display: inline-block;
+    background-color: lightblue;
+    width: 30%;
+}
+
+main {
+    display: inline-block;
+    width: 69%;
+    background-color: lightsalmon;
+}
+
+footer {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.mainNavigation ul { 
+    list-style: none;
+}
+
+.mainNavigation li { 
+    margin: 13px;
+}
+
+.mainNavigation {
+    display: inline-block;
+}
+
+.mainNavigation a{
+    color: white;
+}
