@@ -1,0 +1,14 @@
+.snape {
+    float: left;
+    width: 300px;
+}
+
+.pic1{
+    width: 300px;
+    float: right;
+}
+
+.pic2{
+    width: 300px;
+    float: left;
+}
