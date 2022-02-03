@@ -1,0 +1,51 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+body {
+    margin: 0;
+}
+
+section.card1 {
+    height: 100vh;
+
+}
+
+.card1 {
+    background: rgb(31,97,155);
+background: linear-gradient(90deg, rgba(31,97,155,1) 0%, rgba(74,203,163,1) 100%);
+}
+
+.card2 {
+    background: rgb(166,54,118);
+background: linear-gradient(90deg, rgba(166,54,118,1) 0%, rgba(171,105,32,1) 100%);
+}
+
+.pic1 {
+    position: relative;
+    left: 33%;
+    top: 32%;
+}
+
+.pic2 {
+    position: relative;
+    left: 33%;
+    top: 101%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+i {
+    color: white;
+ }
+
+ .card1 i { 
+    position: absolute;
+    top: 71%;
+    left: 63%;
+}
+
+.card2 i { 
+    position: absolute;
+    bottom: -99%;
+    left: 63%;
+}
+
