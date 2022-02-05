@@ -1,36 +1,42 @@
 body {
     display: grid;
+    grid-template-columns: 100px auto;
+    gap: 20px;
     grid-template-areas: 
     "header header"
     "aside main"
-    "footer footer";
-    grid-template-columns: 100px auto;
-    gap: 10px;
+    "footer footer"
 }
 
-header { grid-area: header; }
-main { grid-area: main; }
-aside { grid-area: aside; }
-footer { grid-area: footer; }
+header {
+    grid-area: header;
+}
 
-body {
+main {
+    grid-area: main;
+}
+
+aside { 
+    grid-area: aside; 
+}
+
+footer {
+    grid-area: footer; 
+}
+
+header, 
+aside, 
+main, 
+footer {
     background-color: rgb(181, 216, 255);
     padding: 5px 10px;
     border-radius: 3px;
 }
 
-/* header {
-    border: 13px solid white;
-} */
-
 header h1 {
     display: inline-block;
     vertical-align: middle;
 }
-
-/* aside { 
-    border: 13px solid white;
-} */
 
 aside ul {
     list-style-type: none;
@@ -45,10 +51,3 @@ aside ul a {
     color: rgb(86, 40, 129);
 }
 
-/* main {
-    border: 13px solid white;
-} */
-
-/* footer {
-    border: 13px solid white;
-} */
