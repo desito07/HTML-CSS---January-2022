@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    border-bottom: 2px rgb(0,0,0) solid;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+ul { 
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+ul li{
+    list-style: none;
+    align-items: baseline;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+    align-items: flex-end;
+}
