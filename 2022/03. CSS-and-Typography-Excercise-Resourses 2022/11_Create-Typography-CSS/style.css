@@ -13,16 +13,30 @@ h6 {
     font-family: Georgia, serif;
 }
 
-table th {
-    background-color: lightblue;
+table{
+    width: 1000px;
+    border-collapse: collapse;
+    border: 1px solid darkgrey;
+    table-layout: fixed;
 }
 
 table th,
-      td {
-    width: 144px;
-    height: 32px;
-    border: 1px solid #ccc;
-    padding-left: 5px;
+table td {
+    border: 1px solid darkgrey;
+    padding: 4px 8px;
+}
+
+table thead th{
+    text-align: left;
+    background-color: darkgrey;
+}
+
+/* table tr:nth-child(2n+1){
+    background-color: lightgrey;
+} */
+
+table tr:nth-child(odd){
+    background-color: lightgrey;
 }
 
 blockquote {
